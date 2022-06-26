@@ -2,8 +2,7 @@
     padding-bottom: 94px;
     padding-top: 94px;
     }
-    .about__text,
-    .team__text {
+    .about__text {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -21,11 +20,12 @@
         margin-right: 30px;
         position: relative;
         }
+        
         .about__item:last-child {
             margin-right: 0;
         }
     
-        .about__icontext{
+        .about__icontext {
         position: absolute;
         width: 100%;
         height: 70px;

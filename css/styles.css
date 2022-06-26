@@ -9,7 +9,7 @@
 padding-bottom: 94px;
 padding-top: 94px;
 }
-.about__text, .team__text {
+.about__text {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -61,6 +61,12 @@ margin-bottom: 50px;
     background-color: #F5F4FA;
 }
 .team__text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 50px;
     }
 
 .team__list {
@@ -303,7 +309,7 @@ margin-bottom: 20px;
     margin-bottom: 20px;
      }
 
-     .subscribe-form{
+     .subscribe-form {
         display: flex;
         align-items: center;
          }
@@ -321,7 +327,7 @@ margin-bottom: 20px;
     color: #FFFFFF;
     font-size: 16px;
     line-height: 1.25;
-       }
+     }
 
    .subscribe-input::placeholder-shown {
     color: rgba(255, 255, 255, 0.6);
@@ -422,6 +428,7 @@ margin-bottom: 20px;
     color: #212121;
     margin-bottom: 30px;
     }
+   
 
     .modal-field:not(:last-child){
     margin-bottom: 10px;
