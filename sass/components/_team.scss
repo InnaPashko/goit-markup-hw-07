@@ -3,6 +3,15 @@
     padding-top: 94px;
     background-color: #F5F4FA;
 }
+.team__text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 50px;
+    }
+
 .team__list {
     display: flex;
     }
@@ -11,7 +20,7 @@
    padding-bottom: 30px;
 }
 .team__item {
-    flex-basis: calc((100% - 90px) / 4);
+    flex-basis: calc((100% - 90px)/4);
     margin-right: 30px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -77,4 +86,4 @@ background-color: #2196F3;
 .employees__icon{
 align-items: center;
 justify-content: center;
-fill: #757575;}
+fill: #757575;} 
